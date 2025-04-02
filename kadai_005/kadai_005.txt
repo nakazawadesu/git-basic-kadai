@@ -1,0 +1,33 @@
+PS C:\Users\choco\lesson> cd C:\Users\choco\OneDrive\Desktop\kadai2
+PS C:\Users\choco\OneDrive\Desktop\kadai2> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\choco\OneDrive\Desktop\kadai2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/04/02     19:12                git_challenge
+
+
+PS C:\Users\choco\OneDrive\Desktop\kadai2> git init
+Initialized empty Git repository in C:/Users/choco/OneDrive/Desktop/kadai2/.git/
+PS C:\Users\choco\OneDrive\Desktop\kadai2> cd git_challenge
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git add hello_world.txt
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git commit -m "1回目の変更"
+[main (root-commit) c58ed80] 1回目の変更
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git add hello_world.txt
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git commit -m "2回目の変更"
+[main 56edb53] 2回目の変更
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\choco\OneDrive\Desktop\kadai2\git_challenge> git log --oneline
+56edb53 (HEAD -> main) 2回目の変更
+c58ed80 1回目の変更
